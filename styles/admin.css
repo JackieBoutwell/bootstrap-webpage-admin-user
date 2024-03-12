@@ -1,0 +1,61 @@
+.leftcolumn {
+  height: 770px;
+  width: 300px;
+}
+
+.right-column {
+  top: 0;
+  left: 300px;
+  position: absolute;
+}
+.form-inline {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.box1 {
+  top: 100px;
+  left: 300px;
+  position: absolute;
+}
+
+.innerbox1 {
+    height:100px;
+    width: 200px;
+    margin: 10px;
+    background-color: pink;
+}
+.innerbox2 {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color: lightgreen;
+}
+.innerbox3 {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color: lightskyblue;
+}
+.innerbox4 {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(218, 120, 218);
+}
+
+.box2 {
+        top: -10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}      
+
+.boxkeeper1 {
+    display: flex;
+        width: 350px;
+        height: 300px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-around
+}
