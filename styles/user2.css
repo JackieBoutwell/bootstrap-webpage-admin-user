@@ -1,0 +1,32 @@
+
+main-container {
+    width: 100%;
+
+}
+
+#box-1 {
+    border: solid black;
+    width: 50%;
+}
+
+#box-2 {
+    border: solid red;
+    width: 50%;
+}
+#box-3 {
+    border: solid green;
+    width: 100%;
+}
+
+#box-4 {
+    border: solid purple;
+    width: 50%;
+}
+#box-5 {
+    width: 60%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
