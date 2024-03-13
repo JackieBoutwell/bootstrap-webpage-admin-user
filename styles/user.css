@@ -1,50 +1,59 @@
-
 body {
     width:100%;
 }
-
-img {
-    border-radius: 50%;
-}
-.picbox {
-    height: 350px;
-    background-color: blue;
-    display: inline-block;
-    border-radius: 10%;
-}
-
-.boxbtn {
+.main-container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.btn btn-s {
-    height: 350px;
-    background-color: blue;
-}
-
-.btn btn- dark {
-    display: inline-block;
-    width:300px;
     flex-direction: row;
-}
-.socialbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 10%;
-    background-color: blueviolet;
-    width: 20%;
-    height: 300px;
+    width: 100%;
 }
 
-.tablebox {
+#section1 {
+    width: 30%;
+    border: 1px solid red;
+    margin: 50px;
+
+}
+#section2 {
+    width: 70%;
+    border: 1px solid grey;
+    margin-right: 50px;
+
+}
+.section3 {
     display: flex;
-  
+    flex-direction: row;
+    width: 100%;
+
+}
+
+#box-1 {
+    border: solid black;
+    width: 75%;
+    
 }
 
 #box-2 {
-    position: absolute;
+    border: solid red;
+    width: 50%;
+}
+#box-3 {
+    border: solid green;
+    width: 100%;
+    
+}
+ #box-4 {
+    border: solid purple;
+    width: 75%;
+    margin-top: 25%;
+    margin-right: 50px;
+    margin-left: 75px;
 
-        }
+}
+#box-5 {
+    border: solid pink;
+    width: 75%;
+    margin-top: 25%;
+    margin-right: 50px;
+    margin-left: 75px;
+}
+
